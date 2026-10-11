@@ -1,62 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<meta name="p:domain_verify" content="53b8804b8c34afd5a72fb226f54a0910"/>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>God Is For You — Not Against You | The Hope Connection with Lewis Fuller</title>
-<meta name="description" content="I love you all and remember God is for you and not against you. A word of encouragement from Lewis Fuller.">
-<link rel="stylesheet" href="../../assets/style.css">
+<title>The Hope Connection with Lewis Fuller | Christian Podcast of Testimony and Hope</title>
+<meta name="description" content="The Hope Connection with Lewis Fuller is a Christian podcast of testimony and hope. After 30+ years of drug addiction, Jesus set Lewis free — now he shares honest Bible teaching on hope, faith, and addiction recovery for the weary, wandering, and wondering.">
+<link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
 
 <header class="site-header">
-  <img class="logo" src="../../assets/img/logo.png" alt="The Hope Connection anchor logo">
+  <img class="logo" src="assets/img/logo.png" alt="The Hope Connection anchor logo">
   <div class="wordmark"><strong>The Hope Connection</strong><span>with Lewis Fuller</span></div>
   <nav class="site-nav">
-    <a href="../../index.html">Home</a>
-    <a href="../index.html">Episodes</a>
+    <a href="index.html">Home</a>
+    <a href="episodes/index.html">Episodes</a>
   </nav>
 </header>
 
-<article>
 <section class="hero">
-  <img src="../../assets/img/god-is-for-you.jpg" alt="Lewis Fuller sharing that God is for you and not against you">
+  <img src="assets/img/ep1-welcome.jpg" alt="Golden sunrise over calm waters with a cross on the distant shore">
   <div class="overlay">
-    <p class="episode-no">October 10, 2026</p>
-    <h1>God Is For You — Not Against You</h1>
-    <p class="tagline">I love you all and remember God is for you and not against you.</p>
+    <h1>The Hope Connection</h1>
+    <p class="tagline">No judgement, real hope — for wherever you are in life.</p>
   </div>
 </section>
 
 <div class="wrap">
-  <ul class="tags"><li>Hope</li><li>Faith</li><li>Encouragement</li></ul>
+  <p class="lede">After 30+ years of drug addiction, Jesus met Lewis Fuller where he was and set him free. Now he shares honest Bible teaching on hope, faith, and recovery — meeting others where they are in the Name of Jesus. Whether you are weary, wandering, or wondering, come as you are, and Lord willing, leave anchored.</p>
 
-  <div class="pull-quote">God is for you and not against you.</div>
+  <p style="text-align:center;margin:1.5em 0;"><a href="start-here/index.html" style="background:#1a2a4a;color:#d4af37;padding:12px 28px;border-radius:8px;text-decoration:none;font-weight:bold;">New here? Start here →</a></p>
 
-  <p>I love you all and remember God is for you and not against you.</p>
+  <div style="max-width:500px;margin:1.5em auto;">
+    <input type="text" id="blog-search" placeholder="Search articles, episodes, topics..." style="width:100%;padding:10px;border:1px solid #ccc;border-radius:8px;font-size:16px;">
+    <div id="search-results" style="margin-top:8px;"></div>
+  </div>
+  <script>
+  const searchIndex = [
+    {t:"There Is Hope: My Testimony", d:"Thirty years of drug addiction ended the night Jesus met Lewis through John 17:3", u:"articles/testimony/index.html", k:"testimony addiction recovery hope john 17"},
+    {t:"God Is For You — Not Against You", d:"A word of encouragement for the heavy days", u:"articles/god-is-for-you/index.html", k:"god is for you encouragement romans 8"},
+    {t:"How Good God Is — Even Through the Pain", d:"Sometimes God allows bad stuff to happen just so He can reveal how good He is", u:"articles/how-good-god-is/index.html", k:"suffering pain goodness of god"},
+    {t:"Episode 1: There Is Hope (My Testimony)", d:"Lewis shares his full testimony", u:"episodes/there-is-hope-my-testimony/index.html", k:"testimony episode 1"},
+    {t:"Episode 2: What If Hope Found You", d:"Hope finds you where you are", u:"episodes/what-if-hope-found-you/index.html", k:"hope episode 2"},
+    {t:"Episode 3: Abounding Hope", d:"Romans 15:13 — hope that abounds by the power of the Holy Spirit", u:"episodes/abounding-hope/index.html", k:"romans 15 hope episode 3"},
+    {t:"Welcome to The Hope Connection", d:"Intro episode — what this podcast is about", u:"episodes/welcome-to-the-hope-connection/index.html", k:"intro welcome"},
+    {t:"Genesis — The Beginning", d:"Bible overview: Creation, fall, covenant, patriarchs", u:"index.html#bible-overviews", k:"genesis bible overview creation"},
+    {t:"Exodus — The Deliverance", d:"Bible overview: God delivers His people", u:"index.html#bible-overviews", k:"exodus bible overview moses"},
+    {t:"Share Your Story", d:"Has Jesus met you where you are? Share your testimony", u:"share-your-story/index.html", k:"testimony share story submit"},
+    {t:"Start Here", d:"New to The Hope Connection? Here's where to begin", u:"start-here/index.html", k:"start new begin guide"}
+  ];
+  document.getElementById('blog-search').addEventListener('input', function(e){
+    const q = e.target.value.toLowerCase().trim();
+    const box = document.getElementById('search-results');
+    if(q.length < 2){ box.innerHTML=''; return; }
+    const hits = searchIndex.filter(i => (i.t+' '+i.d+' '+i.k).toLowerCase().includes(q)).slice(0,6);
+    box.innerHTML = hits.length
+      ? hits.map(h => `<p style="margin:6px 0;"><a href="${h.u}"><strong>${h.t}</strong></a><br><small>${h.d}</small></p>`).join('')
+      : '<p><small>No results found. Try another word.</small></p>';
+  });
+  </script>
 
-  <p>When life feels heavy and the enemy whispers that you're alone, come back to this truth: the God who gave His Son for you is not working against you. He is for you — in the waiting, in the struggle, in the middle of the mess.</p>
+    <h2>Watch: what is The Hope Connection?</h2>
+    <video style="width:100%;max-width:360px;aspect-ratio:9/16;border:0;border-radius:12px;display:block;margin:1em auto;" src="assets/vid/hope-connection-commercial.mp4" poster="assets/img/commercial-poster.jpg" title="What Is The Hope Connection? | Official Commercial (Lewis's voice)" controls preload="metadata" playsinline></video>
 
-  <p><strong>Comment "God is for you" and share this with someone who needs to hear it today.</strong></p>
+  <h2>About Lewis</h2>
+  <p>For more than 30 years, Lewis Fuller lived in drug addiction — rehabs, meetings, nothing held. Then, reading John 17 in a men's discipleship program, he believed God's Word was true, and Jesus set him free then and there. <a class="read-more" href="episodes/there-is-hope-my-testimony/index.html">Hear his testimony →</a></p>
 
-  <p>Who needs to hear this today? Send this to them.</p>
+    <h2>Watch: Lewis's testimony</h2>
+    <p>From chains to Christ — the prison he built for himself, and the ones the state built for him, to the man Jesus made him. If He can set Lewis free, He can set you free too.</p>
+    <video style="width:100%;max-width:360px;aspect-ratio:9/16;border:0;border-radius:12px;display:block;margin:1em auto;" src="assets/vid/testimony-commercial.mp4" poster="assets/img/testimony-commercial-poster.jpg" title="Lewis's Testimony — From Chains to Christ" controls preload="metadata" playsinline></video>
+
+    <h2>Coming soon: Rachel's story</h2>
+    <p>Rachel — the first guest host on The Hope Connection — shares her story of hope, grace, and redemption. Don't miss it.</p>
+    <video style="width:100%;max-width:360px;aspect-ratio:9/16;border:0;border-radius:12px;display:block;margin:1em auto;" src="assets/vid/rachel-commercial.mp4" poster="assets/img/rachel-commercial-poster.jpg" title="Rachel's Story — Coming Soon" controls preload="metadata" playsinline></video>
+
+  <h2>Bible Overviews: 66 Books, One Story of Hope</h2>
+  <p>We're going through all 66 books of the Bible — one by one, animated. Each brief overview shows where God has brought people from. Darkness to light, every book. Grace alone, through faith alone, in Christ alone.</p>
+
+    <h3>Genesis — The Beginning</h3>
+    <video style="width:100%;max-width:360px;aspect-ratio:9/16;border:0;border-radius:12px;display:block;margin:1em auto;" src="assets/vid/bible-genesis.mp4" title="GENESIS — The Beginning | Bible Overview" controls preload="metadata" playsinline></video>
+
+    <h3>Exodus — The Deliverance</h3>
+    <video style="width:100%;max-width:360px;aspect-ratio:9/16;border:0;border-radius:12px;display:block;margin:1em auto;" src="assets/vid/bible-exodus.mp4" title="EXODUS — The Deliverance | Bible Overview" controls preload="metadata" playsinline></video>
+
+  <h2>Latest episode</h2>
+  <article class="post-card">
+    <a href="episodes/abounding-hope/index.html"><img src="assets/img/ep3-abounding-hope.jpg" alt="An anchor holding firm beneath stormy waves as golden light breaks through"></a>
+    <div class="body">
+      <h3><a href="episodes/abounding-hope/index.html">Episode 3: Abounding Hope</a></h3>
+      <p class="date">September 28, 2026 · Romans 15:13</p>
+      <p class="excerpt">When your future feels uncertain, hope doesn't have to rise and fall with your circumstances. A look at Romans 15:13 — hope that abounds by the power of the Holy Spirit, for the uncertain, the suffering, and the waiting.</p>
+      <a class="read-more" href="episodes/abounding-hope/index.html">Read the show notes →</a>
+    </div>
+  </article>
+
+  <p><a class="read-more" href="episodes/index.html">Browse all episodes →</a></p>
+
+  <h2>Articles</h2>
+  <article class="post-card">
+    <a href="articles/testimony/index.html"><img src="assets/img/ep1-welcome.jpg" alt="Golden sunrise over calm waters — the hope after 30 years of addiction"></a>
+    <div class="body">
+      <h3><a href="articles/testimony/index.html">There Is Hope: My Testimony</a></h3>
+      <p class="date">October 11, 2026 · John 17:3</p>
+      <p class="excerpt">Thirty years of drug addiction ended the night Jesus met Lewis through John 17:3. No past is too far for His grace to reach — there is hope, and His name is Jesus.</p>
+      <a class="read-more" href="articles/testimony/index.html">Read the article →</a>
+    </div>
+  </article>
+  <article class="post-card">
+    <a href="articles/god-is-for-you/index.html"><img src="assets/img/god-is-for-you.jpg" alt="Lewis Fuller sharing that God is for you and not against you"></a>
+    <div class="body">
+      <h3><a href="articles/god-is-for-you/index.html">God Is For You — Not Against You</a></h3>
+      <p class="date">October 10, 2026</p>
+      <p class="excerpt">I love you all and remember: God is for you and not against you. A word of encouragement for the heavy days.</p>
+      <a class="read-more" href="articles/god-is-for-you/index.html">Read the article →</a>
+    </div>
+  </article>
+  <article class="post-card">
+    <a href="articles/how-good-god-is/index.html"><img src="assets/img/how-good-god-is.jpg" alt="God allows bad stuff to happen just so He can reveal how much we need Him and how good He is even through the pain"></a>
+    <div class="body">
+      <h3><a href="articles/how-good-god-is/index.html">How Good God Is — Even Through the Pain</a></h3>
+      <p class="date">October 10, 2026</p>
+      <p class="excerpt">Sometimes God allows bad stuff to happen just so He can reveal how much we need Him — and how good He is even through the pain.</p>
+      <a class="read-more" href="articles/how-good-god-is/index.html">Read the article →</a>
+    </div>
+  </article>
+
+
+  <h2>Guest appearances</h2>
+  <p>Lewis joined Trey Crayton on SHOUT OUT TO GOD LIVE, Episode 05 — "Light Finds the Broken Places" — to share his testimony and the hope of Christ. <a class="read-more" href="https://www.youtube.com/live/7wGsBGa2HcQ">Watch the replay →</a></p>
 
   <div class="listen-box">
-    <h2>Watch the video</h2>
-    <p>"God Is For You — Not Against You" — Lewis Fuller</p>
-    <div style="position:relative;padding-bottom:177.78%;height:0;overflow:hidden;max-width:360px;margin:1em auto;border-radius:12px;">
-      <iframe src="https://www.youtube.com/embed/XbyvRSKEY54" title="God Is For You — Not Against You" style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </div>
+    <h2>Listen to the podcast</h2>
+    <p>New episodes weekly. Free, wherever you listen.</p>
     <div class="btn-row">
-      <a class="btn" href="https://www.youtube.com/shorts/XbyvRSKEY54">Watch on YouTube</a>
+      <a class="btn" href="https://open.spotify.com/show/08BnjbeaSo4TRld340l377">Spotify</a>
+      <a class="btn ghost" href="https://www.youtube.com/@thehopeconnectionpodcast">YouTube</a>
     </div>
   </div>
+
+  <h2>Newsletter</h2>
+  <p>New episodes, weekly teaching, and ministry updates — straight to your inbox.</p>
+  <div class="btn-row">
+    <a class="btn" href="https://muse.ai/s/the-hope-connection-website-2-xvxa64s7oxz09h">Sign up for the newsletter</a>
+  </div>
+
+  <h2>Connect</h2>
+  <p>Follow along for daily encouragement, verse images, and episode clips:</p>
+  <ul>
+    <li><a href="https://www.instagram.com/thehopeconnectionpodcast">Instagram — @thehopeconnectionpodcast</a></li>
+    <li><a href="https://www.youtube.com/@thehopeconnectionpodcast">YouTube — Lewis Fuller</a></li>
+<li><a href="https://muse.ai/s/the-hope-connection-website-2-xvxa64s7oxz09h">Main website — prayer requests & newsletter</a></li>
+  </ul>
+  <h2>Your story matters</h2>
+  <p>Has Jesus met you where you are? Your testimony could be someone else's hope. <a href="share-your-story/index.html">Share your story →</a></p>
+
+  <h2>We'd love to hear from you</h2>
+  <p>Feedback, prayer requests, discussion notes, or a topic you'd like covered — send it our way.</p>
+  <form action="https://formsubmit.co/thehopeconnectionministry2026@gmail.com" method="POST" style="max-width:500px;margin:1em auto;text-align:left;">
+    <input type="hidden" name="_subject" value="Blog Feedback — The Hope Connection">
+    <input type="hidden" name="_template" value="table">
+    <p><label>Your name (optional)<br><input type="text" name="name" style="width:100%;padding:8px;border:1px solid #ccc;border-radius:6px;"></label></p>
+    <p><label>Your email (optional, if you'd like a reply)<br><input type="email" name="email" style="width:100%;padding:8px;border:1px solid #ccc;border-radius:6px;"></label></p>
+    <p><label>What's this about?<br>
+      <select name="type" style="width:100%;padding:8px;border:1px solid #ccc;border-radius:6px;">
+        <option>Feedback</option>
+        <option>Prayer request</option>
+        <option>Topic suggestion</option>
+        <option>Discussion note</option>
+        <option>Other</option>
+      </select></label></p>
+    <p><label>Your message<br><textarea name="message" rows="5" required style="width:100%;padding:8px;border:1px solid #ccc;border-radius:6px;"></textarea></label></p>
+    <p><button type="submit" style="background:#1a2a4a;color:#d4af37;padding:12px 24px;border:none;border-radius:8px;font-weight:bold;cursor:pointer;">Send →</button></p>
+  </form>
 </div>
-</article>
 
 <footer class="site-footer">
-  <p><strong>The Hope Connection</strong> with Lewis Fuller — no judgement, real hope to wherever you are in life.</p>
-  <p><a href="https://open.spotify.com/show/08BnjbeaSo4TRld340l377">Spotify</a> · <a href="https://www.youtube.com/@thehopeconnectionpodcast">YouTube</a> · <a href="../../index.html">Blog Home</a></p>
+  <div class="links">
+    <a href="https://open.spotify.com/show/08BnjbeaSo4TRld340l377">Spotify</a>
+    <a href="https://www.youtube.com/@thehopeconnectionpodcast">YouTube</a>
+    <a href="https://www.instagram.com/thehopeconnectionpodcast">Instagram</a>
+  </div>
+  <p>The Hope Connection with Lewis Fuller — meeting others where they are in the Name of Jesus.</p>
+  <p>Scripture quotations are from the English Standard Version (ESV).</p>
 </footer>
 
 </body>
