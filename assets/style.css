@@ -155,3 +155,14 @@ footer.site-footer p { margin: 6px 0; }
 
 blockquote { border-left: 4px solid var(--gold); margin: 22px 0; padding: 6px 18px; color: #33404f; font-style: italic; }
 hr { border: none; border-top: 1px solid var(--line); margin: 30px 0; }
+
+/* Mobile header fix (Oct 14, 2026): keep the full menu on screen on phones.
+   The header row (logo + wordmark + nav) was wider than a phone screen, so the
+   last nav link, "Previous Teachings & Videos", ran off the right edge.
+   On small screens the nav wraps onto its own full-width row under the brand. */
+@media (max-width: 640px) {
+  .site-header { flex-wrap: wrap; padding: 12px 14px; }
+  .site-header .wordmark strong { font-size: 16px; }
+  .site-nav { margin-left: 0; width: 100%; flex-wrap: wrap; gap: 8px 16px; }
+  .site-nav a { font-size: 14.5px; }
+}
