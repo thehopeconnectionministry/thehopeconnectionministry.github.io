@@ -53,4 +53,156 @@
       <input type="hidden" name="_subject" value="New 30-Day Hope Plan Signup — The Hope Connection">
       <input type="hidden" name="_template" value="table">
       <input type="hidden" name="_next" value="https://thehopeconnectionministry.github.io/thanks.html">
-      <p><input type="text" name="name" placeholder="Your name (optional)" style="width:100%;max-width:4
+      <p><input type="text" name="name" placeholder="Your name (optional)" style="width:100%;max-width:4;padding:10px;border:1px solid #ccc;border-radius:8px;font-size:16px;"></p>
+      <p><input type="email" name="email" placeholder="Your email address" required style="width:100%;max-width:400px;padding:10px;border:1px solid #ccc;border-radius:8px;font-size:16px;"></p>
+      <p><button type="submit" style="background:#d4af37;color:#1a2a4a;padding:12px 28px;border:none;border-radius:8px;font-weight:bold;font-size:16px;cursor:pointer;">Send Me the Plan</button></p>
+    </form>
+  </div>
+
+  <p class="lede">After 30+ years of drug addiction, Jesus met Lewis Fuller where he was and set him free. Now he shares honest Bible teaching on hope, faith, and recovery — meeting others where they are in the Name of Jesus. Whether you are weary, wandering, or wondering, come as you are, and Lord willing, leave anchored.</p>
+
+  <p style="text-align:center;margin:1.5em 0;"><a href="from-lewiss-heart/index.html" style="background:#1a2a4a;color:#d4af37;padding:12px 28px;border-radius:8px;text-decoration:none;font-weight:bold;">From Lewis's Heart — insights &amp; quotes</a></p>
+
+  <div style="background:#1a2a4a;color:#f5f0e6;padding:24px;border-radius:12px;margin:2em auto;max-width:600px;text-align:center;">
+    <h2 style="color:#d4af37;margin-top:0;">Our Mission</h2>
+    <p style="font-size:20px;font-weight:bold;color:#d4af37;">"Meeting others where they are in the Name of Jesus."</p>
+    <p>The Hope Connection exists to make Jesus famous — not to make us famous. No judgement, real hope to wherever you are in life. Whether you are weary, wandering, or wondering, or you are looking for honest encouragement, this is the place to be. You will be met with grace and Truth in the Name of Jesus. Come as you are, and Lord willing, leave anchored.</p>
+    <p style="font-size:14px;opacity:0.8;">This is a personal ministry of Lewis Fuller — not affiliated with any church, denomination, or organization.</p>
+  </div>
+
+  <div style="max-width:500px;margin:1.5em auto;">
+    <input type="text" id="blog-search" placeholder="Search articles, episodes, topics..." style="width:100%;padding:10px;border:1px solid #ccc;border-radius:8px;font-size:16px;">
+    <div id="search-results" style="margin-top:8px;"></div>
+  </div>
+  <script>
+  const searchIndex = [
+    {t:"There Is Hope: My Testimony", d:"Thirty years of drug addiction ended the night Jesus met Lewis through John 17:3", u:"articles/testimony/index.html", k:"testimony addiction recovery hope john 17"},
+    {t:"God Is For You — Not Against You", d:"A word of encouragement for the heavy days", u:"articles/god-is-for-you/index.html", k:"god is for you encouragement romans 8"},
+    {t:"How Good God Is — Even Through the Pain", d:"Sometimes God allows bad stuff to happen just so He can reveal how good He is", u:"articles/how-good-god-is/index.html", k:"suffering pain goodness of god"},
+    {t:"A New Book Is in the Works — Hope Met Me Where I Was", d:"Announcing Hope Met Me Where I Was, the testimony book of Lewis Fuller — digital free, print at cost, reveal December 16, 2026", u:"articles/hope-met-me-where-i-was-announcement/index.html", k:"book hope met me where i was announcement new book lewis fuller testimony"},
+    {t:"Episode 1: There Is Hope (My Testimony)", d:"Lewis shares his full testimony", u:"episodes/there-is-hope-my-testimony/index.html", k:"testimony episode 1"},
+    {t:"Episode 2: What If Hope Found You", d:"Hope finds you where you are", u:"episodes/what-if-hope-found-you/index.html", k:"hope episode 2"},
+    {t:"My Story: Rachel's Testimony", d:"Rachel Fuller — the voice at the start of every episode — shares her own testimony", u:"episodes/my-story-rachels-testimony/index.html", k:"rachel testimony my story guest episode wife"},
+    {t:"A Prayer for You Today", d:"Lewis prays for whoever is struggling right now — the first Daily Prayer & Encouragement video", u:"episodes/a-prayer-for-you-today/index.html", k:"prayer for you today daily prayer encouragement struggling"},
+    {t:"God Knows Your Struggle", d:"Daily Prayer & Encouragement — God knows your situation, He is with you, and He is for you", u:"episodes/god-knows-your-struggle/index.html", k:"god knows struggle daily prayer encouragement with you for you"},
+    {t:"He's With You in the Valley", d:"Daily Prayer & Encouragement — Psalm 23:4, He is with you in the valley and He always provides a way out", u:"episodes/hes-with-you-in-the-valley/index.html", k:"hes with you valley psalm 23 daily prayer encouragement"},
+    {t:"Make Time for God", d:"Daily Prayer & Encouragement — don't let busyness crowd out the Lord; God wants to hear from you and spend time with you", u:"episodes/make-time-for-god/index.html", k:"make time for god prayer busy daily prayer encouragement"},
+    {t:"Can I Pray for You Today?", d:"Daily Prayer & Encouragement — Lewis prays for the person recovering from surgery, the one who did not rest well, anyone struggling today, and our leaders; God is for you, not against you", u:"episodes/can-i-pray-for-you-today/index.html", k:"can i pray for you today daily prayer encouragement surgery rest struggling leaders god is for you"},
+    {t:"A Prayer for Your Saturday Morning", d:"Daily Prayer & Encouragement — a Saturday morning prayer for the one who had a rough week, the addict, the struggling single mother and father, and the broken family; God is for you, not against you", u:"episodes/a-prayer-for-your-saturday-morning/index.html", k:"prayer saturday morning daily prayer encouragement rough week addict single mother father broken family god is for you"},{t:"God Is Still in Control",d:"Daily Prayer & Encouragement — Lewis thanks everyone for their prayers while his household was sick, then prays Romans 8:28 over you: God is still good, He is still in control, He holds everything in His hands",u:"episodes/god-is-still-in-control/index.html",k:"prayer daily prayer encouragement god is still in control romans 8:28 sick household thank you"},{t:"The Goodness of God", d:"Daily Prayer & Encouragement — Lewis thinks about the goodness, mercy, love and grace of God, then prays for the one in bed who can't get up, the one in the hospital, the addict seeking hope, and the one who doesn't know Him yet", u:"episodes/the-goodness-of-god/index.html", k:"goodness of god daily prayer encouragement mercy love grace hospital addict hope hebrews 12"}, {t:"Thank You for Your Prayers — I'm Feeling Better", d:"Daily Prayer & Encouragement — Lewis thanks everyone for their prayers while he and his family have been sick, shares that he is getting better, and announces that — Lord willing — he starts recording The Hope Connection podcast again on Monday, beginning with Surrender, Part 2", u:"episodes/thank-you-for-your-prayers/index.html", k:"thank you for your prayers daily prayer encouragement sick getting better healing surrender part 2"},
+    {t:"Episode 3: Abounding Hope", d:"Romans 15:13 — hope that abounds by the power of the Holy Spirit", u:"episodes/abounding-hope/index.html", k:"romans 15 hope episode 3"},
+    {t:"Welcome to The Hope Connection", d:"Intro episode — what this podcast is about", u:"episodes/welcome-to-the-hope-connection/index.html", k:"intro welcome"},
+    {t:"Genesis — The Beginning", d:"Bible overview: Creation, fall, covenant, patriarchs", u:"previous-teachings/index.html#bible-overviews", k:"genesis bible overview creation"},
+    {t:"Exodus — The Deliverance", d:"Bible overview: God delivers His people", u:"previous-teachings/index.html#bible-overviews", k:"exodus bible overview moses"},
+    {t:"Leviticus — The Perfect Sacrifice", d:"Bible overview: Holiness, sacrifice, priesthood, atonement", u:"previous-teachings/index.html#bible-overviews", k:"leviticus bible overview sacrifice"},
+    {t:"Numbers — Lifted Up to Heal", d:"Bible overview: Serpent, rock, and a star — lifted up to heal", u:"previous-teachings/index.html#bible-overviews", k:"numbers bible overview serpent"},
+    {t:"Previous Teachings & Videos", d:"Past Bible overview videos and teachings — watch them anytime", u:"previous-teachings/index.html", k:"previous teachings videos archive bible overviews watch back"},
+    {t:"Salvation: God's Work of Grace from Beginning to End", d:"Not a ladder of human merit — God's sovereign rescue of sinners, from election to glory (Romans 8:29–30)", u:"teachings/salvation-gods-work-of-grace.html", k:"salvation grace faith alone romans 8 election justification teaching ordo salutis"},
+    {t:"The Four Questions", d:"Next time the verdict lands at 3 a.m., you don't need a new feeling. You need four questions.", u:"teachings/the-four-questions.html", k:"feelings four questions faith 2 corinthians 5 walk by faith not by sight teaching"},
+    {t:"The Hidden Gems Collection", d:"The verses everybody skims, dug deep — one hidden gem a week, starting with Erastus of Romans 16:23", u:"teachings/hidden-gems-collection.html", k:"hidden gems collection verses skimmed romans 16 erastus bible teaching series"},
+    {t:"Hidden Gem #1: Erastus — The Name Carved in Stone", d:"Romans 16:23 — the city treasurer in Paul's greeting list, and the Corinth pavement that bears his name", u:"teachings/hidden-gem-1-erastus-romans-16-23.html", k:"erastus romans 16 23 city treasurer corinth pavement inscription hidden gem"},
+    {t:"Share Your Story", d:"Has Jesus met you where you are? Share your testimony", u:"share-your-story/index.html", k:"testimony share story submit"},
+    {t:"Start Here", d:"New to The Hope Connection? Here's where to begin", u:"start-here/index.html", k:"start new begin guide"}
+  ];
+  document.getElementById('blog-search').addEventListener('input', function(e){
+    const q = e.target.value.toLowerCase().trim();
+    const box = document.getElementById('search-results');
+    if(q.length < 2){ box.innerHTML=''; return; }
+    const hits = searchIndex.filter(i => (i.t+' '+i.d+' '+i.k).toLowerCase().includes(q)).slice(0,6);
+    box.innerHTML = hits.length
+      ? hits.map(h => `<p style="margin:6px 0;"><a href="${h.u}"><strong>${h.t}</strong></a><br><small>${h.d}</small></p>`).join('')
+      : '<p><small>No results found. Try another word.</small></p>';
+  });
+  </script>
+
+  <h2>About Lewis</h2>
+  <p>For more than 30 years, Lewis Fuller lived in drug addiction — rehabs, meetings, nothing held. Then, reading John 17 in a men's discipleship program, he believed God's Word was true, and Jesus set him free then and there. <a class="read-more" href="episodes/there-is-hope-my-testimony/index.html">Hear his testimony →</a></p>
+
+  <h2 id="bible-overviews">Bible Overviews: 66 Books, One Story of Hope</h2>
+  <p>We're going through all 66 books of the Bible — one by one, animated. Each brief overview shows where God has brought people from. Darkness to light, every book. Grace alone, through faith alone, in Christ alone.</p>
+
+    <p><em>The next pair is coming this week. Catch up on every earlier book in <a href="previous-teachings/index.html#bible-overviews">Previous Teachings &amp; Videos</a>.</em></p>
+
+  <h2>Daily Prayer &amp; Encouragement</h2>
+  <article class="post-card">
+    <a href="episodes/thank-you-for-your-prayers/index.html"><img src="assets/img/daily-prayer-2026-11-20.jpg" alt="Lewis Fuller speaking to the camera from home"></a>
+    <div class="body">
+      <h3><a href="episodes/thank-you-for-your-prayers/index.html">Thank You for Your Prayers — I'm Feeling Better</a></h3>
+      <p class="date">November 20, 2026 · Daily Prayer &amp; Encouragement</p>
+      <p class="excerpt">Lewis thanks everyone for their prayers while he and his family have been sick, shares that he is getting better, and announces that — Lord willing — he starts recording The Hope Connection podcast again on Monday, beginning with Surrender, Part 2.</p>
+      <a class="read-more" href="episodes/thank-you-for-your-prayers/index.html">Watch and read the prayer &#8594;</a>
+    </div>
+  </article>
+
+  <h2>Latest episode</h2>
+  <article class="post-card">
+    <a href="episodes/surrender-part-1-not-giving-up-giving-over/index.html"><img src="assets/img/ep4-surrender.jpg" alt="Lewis Fuller with open, surrendered hands, chains falling away, warm light"></a>
+    <div class="body">
+      <h3><a href="episodes/surrender-part-1-not-giving-up-giving-over/index.html">Surrender, Part 1: Not Giving Up — Giving Over</a></h3>
+      <p class="date">October 27, 2026 · Luke 22:42</p>
+      <p class="excerpt">Everybody told me to surrender — and every time I heard that word, my heels dug in. In this episode: what I got wrong about the word 'surrender' for more than thirty years, and the night the word finally changed.</p>
+      <a class="read-more" href="episodes/surrender-part-1-not-giving-up-giving-over/index.html">Read the show notes →</a><p><a href="https://open.spotify.com/episode/3691M8Xbx7yKXlIO9hG8W2">Listen on Spotify</a> · <a href="https://youtu.be/i9lFff-ROEk">Watch on YouTube</a> · <a href="https://www.youtube.com/@thehopeconnectionpodcast?sub_confirmation=1">Subscribe on YouTube</a></p>
+    </div>
+  </article>
+
+  <p><a class="read-more" href="episodes/index.html">Browse all episodes →</a></p>
+
+  <h2>Guest appearances</h2>
+  <p>Lewis joined Trey Crayton on SHOUT OUT TO GOD LIVE, Episode 05 — "Light Finds the Broken Places" — to share his testimony and the hope of Christ. <a class="read-more" href="https://www.youtube.com/live/7wGsBGa2HcQ">Watch the replay →</a></p>
+
+  <div class="listen-box">
+    <h2>Listen to the podcast</h2>
+    <p>New episodes weekly. Free, wherever you listen.</p>
+    <div class="btn-row">
+      <a class="btn" href="https://open.spotify.com/show/08BnjbeaSo4TRld340l377">Spotify</a>
+      <a class="btn ghost" href="https://www.youtube.com/@thehopeconnectionpodcast">YouTube</a> <a class="btn ghost" href="https://www.youtube.com/@thehopeconnectionpodcast?sub_confirmation=1">Subscribe on YouTube</a>
+    </div>
+  </div>
+
+  <h2 id="newsletter">Newsletter</h2>
+  <p>New episodes, weekly teaching, and ministry updates — straight to your inbox.</p>
+  <div class="btn-row">
+    <a class="btn" href="https://thehopeconnection.substack.com">Sign up for the newsletter</a>
+  </div>
+
+  <h2>Connect</h2>
+  <p>Follow along for daily encouragement, verse images, and episode clips:</p>
+  <ul>
+    <li><a href="https://www.instagram.com/thehopeconnectionpodcast">Instagram — @thehopeconnectionpodcast</a></li>
+    <li><a href="https://www.youtube.com/@thehopeconnectionpodcast">YouTube — @thehopeconnectionpodcast</a></li>
+<li><a href="prayer-wall/index.html">Main website — prayer requests & newsletter</a></li>
+  </ul>
+  <h2>Your story matters</h2>
+  <p>Has Jesus met you where you are? Your testimony could be someone else's hope. <a href="share-your-story/index.html">Share your story →</a></p>
+
+  <h2>We'd love to hear from you</h2>
+  <p>Feedback, prayer requests, discussion notes, or a topic you'd like covered — send it our way.</p>
+  <form action="https://formsubmit.co/thehopeconnectionministry2026@gmail.com" method="POST" style="max-width:500px;margin:1em auto;text-align:left;">
+    <input type="hidden" name="_subject" value="Blog Feedback — The Hope Connection">
+    <input type="hidden" name="_template" value="table">
+    <p><label>Your name (optional)<br><input type="text" name="name" style="width:100%;padding:8px;border:1px solid #ccc;border-radius:6px;"></label></p>
+    <p><label>Your email (optional, if you'd like a reply)<br><input type="email" name="email" style="width:100%;padding:8px;border:1px solid #ccc;border-radius:6px;"></label></p>
+    <p><label>What's this about?<br>
+      <select name="type" style="width:100%;padding:8px;border:1px solid #ccc;border-radius:6px;">
+        <option>Feedback</option>
+        <option>Prayer request</option>
+        <option>Topic suggestion</option>
+        <option>Discussion note</option>
+        <option>Other</option>
+      </select></label></p>
+    <p><label>Your message<br><textarea name="message" rows="5" required style="width:100%;padding:8px;border:1px solid #ccc;border-radius:6px;"></textarea></label></p>
+    <p><button type="submit" style="background:#1a2a4a;color:#d4af37;padding:12px 24px;border:none;border-radius:8px;font-weight:bold;cursor:pointer;">Send →</button></p>
+  </form>
+</div>
+
+<footer class="site-footer">
+  <div class="links">
+    <a href="https://open.spotify.com/show/08BnjbeaSo4TRld340l377">Spotify</a>
+    <a href="https://www.youtube.com/@thehopeconnectionpodcast">YouTube</a>
+    <a href="https://www.instagram.com/thehopeconnectionpodcast">Instagram</a>
+  </div>
+  <p>The Hope Connection with Lewis Fuller — meeting others where they are in the Name of Jesus.</p>
+  <p>Scripture quotations are from the English Standard Version (ESV).</p>
+</footer>
+
+</body>
+</html>
