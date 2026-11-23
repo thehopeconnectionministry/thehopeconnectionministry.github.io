@@ -135,7 +135,7 @@ Promise.all([fetch('jesus-in-genesis-commentary.md').then(function(r){if(!r.ok)t
   document.getElementById('intro').innerHTML=mdHtml(stripByline(md));
   document.getElementById('chapters').innerHTML='<li>Chapter list could not be built from the commentary file.</li>';
  }
- document.getElementById('guide').innerHTML=mdHtml(stripTitle(guide));
+ document.getElementById('guide').innerHTML=mdHtml(stripByline(guide));
 }).catch(function(e){
  document.getElementById('intro').innerHTML='<p>Sorry \u2014 this page could not load its text just now. Please try again, or use the <a href="study-guide/index.html">study guide</a>.</p>';
  document.getElementById('chapters').innerHTML='<li>Chapter list could not be loaded just now.</li>';
