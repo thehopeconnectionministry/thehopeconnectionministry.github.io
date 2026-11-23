@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Jesus in Psalms — A Psalm-by-Psalm Commentary | The Hope Connection with Lewis Fuller</title>
-<meta name="description" content="Jesus in Psalms — a psalm-by-psalm commentary on the book of Psalms by Lewis Fuller: Christ in every psalm, with a study guide and memory verses for all one hundred fifty psalms.">
+<title>Jesus in Psalms — A Commentary on the Psalter | The Hope Connection with Lewis Fuller</title>
+<meta name="description" content="Jesus in Psalms — a commentary on the Psalter by Lewis Fuller: Christ in every psalm, from the blessed man to the final hallelujah, with a five-book study guide and memory verses for the key psalms.">
 <link rel="stylesheet" href="../../assets/style.css">
 <style>
 .hero-band{background:#0b1b33;border-bottom:4px solid #c9a227;color:#fff;padding:44px 20px 38px;}
@@ -45,7 +45,7 @@ blockquote p{margin:0;}
   <div class="inner">
     <p class="kicker">Teaching · Commentary</p>
     <h1>Jesus in Psalms</h1>
-    <p class="tagline">A Psalm-by-Psalm Commentary</p>
+    <p class="tagline">A Commentary on the Psalter</p>
   </div>
 </section>
 <div class="wrap">
@@ -59,7 +59,7 @@ blockquote p{margin:0;}
 <ul class="chapter-list" id="chapters"><li>Loading the psalm list…</li></ul>
 <div id="after"></div>
 <hr />
-<p><a href="study-guide/index.html"><strong>Psalms Study Guide</strong></a> — the one-hundred-fifty-psalm plan, memory verses, and study questions.</p>
+<p><a href="study-guide/index.html"><strong>Psalms Study Guide</strong></a> — a five-book reading plan, memory verses, and study questions.</p>
 </div>
 </article>
 <footer class="site-footer">
@@ -103,7 +103,7 @@ function mdHtml(md){
  flush();return html;
 }
 function heads(md){
- var re=/^##\s+(.+)$/gm;var m;var out=[];while((m=re.exec(md))){out.push({text:m[1],idx:m.index,end:m.index+m[0].length});}return out;
+ var re=/^(#{2,3})\s+(.+)$/gm;var m;var out=[];while((m=re.exec(md))){out.push({text:m[2],level:m[1].length,idx:m.index,end:m.index+m[0].length});}return out;
 }
 function stripTitle(md){return md.replace(/^#\s+.*$/m,'');}
 function stripByline(t){
@@ -120,7 +120,7 @@ Promise.all([fetch('jesus-in-psalms-commentary.md').then(function(r){if(!r.ok)th
  var md=parts[0];var guide=parts[1];
  var hs=heads(md);var chs=hs.filter(function(h){return /^Psalm\s+\d+\b/.test(h.text);});
  if(chs.length){
-  var gHead=null;for(var gi=0;gi<hs.length;gi++){if(/Study Guide$/.test(hs[gi].text)){gHead=hs[gi];break;}}
+  var gHead=null;for(var gi=0;gi<hs.length;gi++){if(hs[gi].level===2&&/Study Guide$/.test(hs[gi].text)){gHead=hs[gi];break;}}
   var intro=stripByline(md.slice(0,gHead?gHead.idx:chs[0].idx));
   document.getElementById('intro').innerHTML=mdHtml(intro);
   var last=chs[chs.length-1];
@@ -129,7 +129,7 @@ Promise.all([fetch('jesus-in-psalms-commentary.md').then(function(r){if(!r.ok)th
   if(nextHead>=0){document.getElementById('after').innerHTML=mdHtml(after.slice(nextHead));}
   var ul=document.getElementById('chapters');var s='';
   chs.forEach(function(h,ix){var n=ix+1;s+='<li><a href="psalm-'+pad(n)+'/index.html">'+esc(h.text)+'</a></li>';});
-  s+='<li><a href="study-guide/index.html">Psalms Study Guide \u2014 the one-hundred-fifty-psalm plan, memory verses, and study questions</a></li>';
+  s+='<li><a href="study-guide/index.html">Psalms Study Guide \u2014 a five-book reading plan, memory verses, and study questions</a></li>';
   ul.innerHTML=s;
  } else {
   document.getElementById('intro').innerHTML=mdHtml(stripByline(md));
