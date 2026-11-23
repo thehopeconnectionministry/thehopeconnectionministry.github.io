@@ -109,6 +109,7 @@ function stripTitle(md){return md.replace(/^#\s+.*$/m,'');}
 function stripByline(t){
  var lines=t.split('\n');var out=[];
  for(var i=0;i<lines.length;i++){var L=lines[i];var tr=L.trim();
+  if(/^#\s/.test(tr))continue;
   if(tr==='**The Hope Connection**'||tr==='**Lewis Fuller**')continue;
   if(/^\*Meeting others/.test(tr))continue;
   out.push(L);}
@@ -119,7 +120,8 @@ Promise.all([fetch('jesus-in-genesis-commentary.md').then(function(r){if(!r.ok)t
  var md=parts[0];var guide=parts[1];
  var hs=heads(md);var chs=hs.filter(function(h){return /^Genesis\s+\d+\b/.test(h.text);});
  if(chs.length){
-  var intro=stripByline(md.slice(0,chs[0].idx));
+  var gHead=null;for(var gi=0;gi<hs.length;gi++){if(/Study Guide$/.test(hs[gi].text)){gHead=hs[gi];break;}}
+  var intro=stripByline(md.slice(0,gHead?gHead.idx:chs[0].idx));
   document.getElementById('intro').innerHTML=mdHtml(intro);
   var last=chs[chs.length-1];
   var after=md.slice(last.end);
