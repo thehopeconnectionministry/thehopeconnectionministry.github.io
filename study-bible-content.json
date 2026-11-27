@@ -1,5 +1,5 @@
 {
- "version": 4,
+ "version": 5,
  "plans": {
   "p30": {
    "title": "30 Days With Jesus",
@@ -1977,49 +1977,310 @@
      "title": "The Battlefield",
      "read": "2 Corinthians 10:3–5",
      "focus": "The fight is real, but it is not fought with fleshly weapons. The strongholds are thoughts — arguments and lofty opinions raised against the knowledge of God. A stronghold is a lie believed so long it feels like a fact.",
-     "question": "What is one stronghold-thought that has dug in over the years — and can you say it plainly, in one sentence?"
+     "question": "What is one stronghold-thought that has dug in over the years — and can you say it plainly, in one sentence?",
+     "refs": [
+      {
+       "b": "2CO",
+       "c": 10,
+       "v1": 3,
+       "v2": 5,
+       "label": "2 Corinthians 10:3–5"
+      }
+     ],
+     "passage": [
+      {
+       "label": "2 Corinthians 10:3–5",
+       "verses": [
+        [
+         3,
+         "For though we walk in the flesh, we don’t wage war according to the flesh;"
+        ],
+        [
+         4,
+         "for the weapons of our warfare are not of the flesh, but mighty before God to the throwing down of strongholds,"
+        ],
+        [
+         5,
+         "throwing down imaginations and every high thing that is exalted against the knowledge of God and bringing every thought into captivity to the obedience of Christ,"
+        ]
+       ]
+      }
+     ],
+     "deeper": {
+      "b": "2CO",
+      "c": 10,
+      "v": 3
+     },
+     "extra": "A stronghold is not a passing thought. It is a thought that has dug in — a lie believed so long it feels like a fact. “God is finished with me.” “I will always be an addict.” “My past is bigger than His grace.” Those are not moods; they are fortifications. And Paul does not say negotiate with them. He says destroy them."
     },
     {
      "day": 2,
      "title": "The Standard",
      "read": "John 17:17; Psalm 119:11",
      "focus": "Every thought is measured against one standard: what God has said. \"Your word is truth.\" The Word stored in the heart is the weapon already in the house when the fight comes — you cannot arrest a lie with a verse you do not have.",
-     "question": "Which verse do you actually have stored up right now that answers your stronghold from Day 1?"
+     "question": "Which verse do you actually have stored up right now that answers your stronghold from Day 1?",
+     "refs": [
+      {
+       "b": "JHN",
+       "c": 17,
+       "v1": 17,
+       "v2": 17,
+       "label": "John 17:17"
+      },
+      {
+       "b": "PSA",
+       "c": 119,
+       "v1": 11,
+       "v2": 11,
+       "label": "Psalms 119:11"
+      }
+     ],
+     "passage": [
+      {
+       "label": "John 17:17",
+       "verses": [
+        [
+         17,
+         "Sanctify them in your truth. Your word is truth."
+        ]
+       ]
+      },
+      {
+       "label": "Psalms 119:11",
+       "verses": [
+        [
+         11,
+         "I have hidden your word in my heart, that I might not sin against you."
+        ]
+       ]
+      }
+     ],
+     "deeper": {
+      "b": "JHN",
+      "c": 17,
+      "v": 17
+     },
+     "extra": "Every thought is measured against one standard: “the knowledge of God.” Not feelings, not circumstances, not what the past says. What has God said? If the thought opposes that, it is not wisdom to wrestle with — it is an enemy to arrest."
     },
     {
      "day": 3,
      "title": "The Exchange",
      "read": "Philippians 4:6–7",
      "focus": "Before Paul ever lists what to think on, he gives the trade: anxiety out, prayer in — and the peace of God stands guard over heart and mind in Christ Jesus. The guard is posted by prayer. The mind does its work under His protection, not alone.",
-     "question": "What is the specific anxiety you will trade in prayer today — named, not general?"
+     "question": "What is the specific anxiety you will trade in prayer today — named, not general?",
+     "refs": [
+      {
+       "b": "PHP",
+       "c": 4,
+       "v1": 6,
+       "v2": 7,
+       "label": "Philippians 4:6–7"
+      }
+     ],
+     "passage": [
+      {
+       "label": "Philippians 4:6–7",
+       "verses": [
+        [
+         6,
+         "In nothing be anxious, but in everything, by prayer and petition with thanksgiving, let your requests be made known to God."
+        ],
+        [
+         7,
+         "And the peace of God, which surpasses all understanding, will guard your hearts and your thoughts in Christ Jesus."
+        ]
+       ]
+      }
+     ],
+     "deeper": {
+      "b": "PHP",
+      "c": 4,
+      "v": 6
+     },
+     "extra": "The whole motion is wrapped in prayer, and God's peace stands guard while you work. The guard is posted by prayer; then the mind does its work under His protection."
     },
     {
      "day": 4,
      "title": "The Filling, Part 1",
      "read": "Philippians 4:8 (first four qualities)",
      "focus": "TRUE — what matches reality as God sees it. HONORABLE — what carries weight and dignity. JUST — what is right and fair by God's standard. PURE — what could be brought into the light without shame. The arrested thought leaves ground behind; these four are the first stones of the rebuilding.",
-     "question": "Of the four, which replacement thought do you most need today — and what is it, in your own words?"
+     "question": "Of the four, which replacement thought do you most need today — and what is it, in your own words?",
+     "refs": [
+      {
+       "b": "PHP",
+       "c": 4,
+       "v1": 8,
+       "v2": 8,
+       "label": "Philippians 4:8"
+      }
+     ],
+     "passage": [
+      {
+       "label": "Philippians 4:8",
+       "verses": [
+        [
+         8,
+         "Finally, brothers, whatever things are true, whatever things are honorable, whatever things are just, whatever things are pure, whatever things are lovely, whatever things are of good report: if there is any virtue and if there is anything worthy of praise, think about these things."
+        ]
+       ]
+      }
+     ],
+     "deeper": {
+      "b": "PHP",
+      "c": 4,
+      "v": 8
+     },
+     "extra": "A mind is never empty. Arrest the lying thought and leave the cell vacant, and seven more will move in (Matthew 12:43–45 is the warning picture). Demolition alone is not victory. Paul gives the construction that follows the demolition: eight qualities to set in the place the stronghold stood."
     },
     {
      "day": 5,
      "title": "The Filling, Part 2",
      "read": "Philippians 4:8 (last four qualities)",
      "focus": "LOVELY — what calls forth love and softens the heart. COMMENDABLE — what would be a credit if said out loud. EXCELLENCE — not barely-allowed, but the best. WORTHY OF PRAISE — what God Himself would applaud. The standard rises from \"not sinful\" to \"worthy of Him.\"",
-     "question": "What have you been dwelling on lately that passes \"not sinful\" but fails \"excellent\"?"
+     "question": "What have you been dwelling on lately that passes \"not sinful\" but fails \"excellent\"?",
+     "refs": [
+      {
+       "b": "PHP",
+       "c": 4,
+       "v1": 8,
+       "v2": 8,
+       "label": "Philippians 4:8"
+      }
+     ],
+     "passage": [
+      {
+       "label": "Philippians 4:8",
+       "verses": [
+        [
+         8,
+         "Finally, brothers, whatever things are true, whatever things are honorable, whatever things are just, whatever things are pure, whatever things are lovely, whatever things are of good report: if there is any virtue and if there is anything worthy of praise, think about these things."
+        ]
+       ]
+      }
+     ],
+     "deeper": {
+      "b": "PHP",
+      "c": 4,
+      "v": 8
+     },
+     "extra": "Lovely and commendable describe the effect of a thought — on your heart and on your speech. Excellence and worthy of praise set its standard — nothing less than what God applauds."
     },
     {
      "day": 6,
      "title": "The Person Behind the List",
      "read": "Hebrews 12:2; Colossians 3:1–2",
      "focus": "The eight qualities are not eight chores — they are one Christ, seen from eight sides. He is the Truth. He is just and pure. He is altogether lovely. \"Think about these things\" finally means fix your eyes on Him and set your mind on things above, where He is.",
-     "question": "When you picture fixing your eyes on Jesus (Hebrews 12:2), which of the eight qualities do you see in Him most clearly — and why that one?"
+     "question": "When you picture fixing your eyes on Jesus (Hebrews 12:2), which of the eight qualities do you see in Him most clearly — and why that one?",
+     "refs": [
+      {
+       "b": "HEB",
+       "c": 12,
+       "v1": 2,
+       "v2": 2,
+       "label": "Hebrews 12:2"
+      },
+      {
+       "b": "COL",
+       "c": 3,
+       "v1": 1,
+       "v2": 2,
+       "label": "Colossians 3:1–2"
+      }
+     ],
+     "passage": [
+      {
+       "label": "Hebrews 12:2",
+       "verses": [
+        [
+         2,
+         "looking to Jesus, the author and perfecter of faith, who for the joy that was set before him endured the cross, despising its shame, and has sat down at the right hand of the throne of God."
+        ]
+       ]
+      },
+      {
+       "label": "Colossians 3:1–2",
+       "verses": [
+        [
+         1,
+         "If then you were raised together with Christ, seek the things that are above, where Christ is, seated on the right hand of God."
+        ],
+        [
+         2,
+         "Set your mind on the things that are above, not on the things that are on the earth."
+        ]
+       ]
+      }
+     ],
+     "deeper": {
+      "b": "HEB",
+      "c": 12,
+      "v": 2
+     },
+     "extra": "Every one of the eight is perfectly true of one Person. Jesus is the Truth. He is honorable, just, and pure without stain. He is altogether lovely. So “think about these things” finally means: think about Him. The list is not eight chores; it is one Christ, seen from eight sides."
     },
     {
      "day": 7,
      "title": "The Deep Dive and the Week's Reflection",
      "read": "\"Arrest the Thought, Fill the Mind\" (the full deep-dive study), slowly, with a pen.",
-     "focus": "",
-     "question": ""
+     "focus": "Put the two verses together and the whole Christian mind-war stands in one movement: a thought rises; you take it captive against the knowledge of God (2 Corinthians 10:5); you set Christ in its place (Philippians 4:8); and the whole motion is wrapped in prayer, while God's peace stands guard (Philippians 4:6–7). Read the full deep-dive slowly, with a pen — then sit with the week's reflection below.",
+     "question": "Name the one stronghold-thought that returns most often in your life. Write down, word for word, the replacement thought from God's Word you will set in its place this week.",
+     "refs": [
+      {
+       "b": "2CO",
+       "c": 10,
+       "v1": 3,
+       "v2": 5,
+       "label": "2 Corinthians 10:3–5"
+      },
+      {
+       "b": "PHP",
+       "c": 4,
+       "v1": 6,
+       "v2": 8,
+       "label": "Philippians 4:6–8"
+      }
+     ],
+     "passage": [
+      {
+       "label": "2 Corinthians 10:3–5",
+       "verses": [
+        [
+         3,
+         "For though we walk in the flesh, we don’t wage war according to the flesh;"
+        ],
+        [
+         4,
+         "for the weapons of our warfare are not of the flesh, but mighty before God to the throwing down of strongholds,"
+        ],
+        [
+         5,
+         "throwing down imaginations and every high thing that is exalted against the knowledge of God and bringing every thought into captivity to the obedience of Christ,"
+        ]
+       ]
+      },
+      {
+       "label": "Philippians 4:6–8",
+       "verses": [
+        [
+         6,
+         "In nothing be anxious, but in everything, by prayer and petition with thanksgiving, let your requests be made known to God."
+        ],
+        [
+         7,
+         "And the peace of God, which surpasses all understanding, will guard your hearts and your thoughts in Christ Jesus."
+        ],
+        [
+         8,
+         "Finally, brothers, whatever things are true, whatever things are honorable, whatever things are just, whatever things are pure, whatever things are lovely, whatever things are of good report: if there is any virtue and if there is anything worthy of praise, think about these things."
+        ]
+       ]
+      }
+     ],
+     "deeper": {
+      "b": "2CO",
+      "c": 10,
+      "v": 3
+     }
     }
    ],
    "reflect": [
@@ -2056,49 +2317,254 @@
      "title": "The Wardrobe",
      "read": "Colossians 3:12",
      "focus": "Before Paul names a single garment, he names who is wearing them: \"God's chosen ones, holy and beloved.\" The clothing follows the identity — you dress like who you already are in Christ, not to become someone else. The first five pieces: compassionate hearts, kindness, humility, meekness, and patience.",
-     "question": "Which of the five do you most often leave hanging in the closet — and what would today look like with it on?"
+     "question": "Which of the five do you most often leave hanging in the closet — and what would today look like with it on?",
+     "refs": [
+      {
+       "b": "COL",
+       "c": 3,
+       "v1": 12,
+       "v2": 12,
+       "label": "Colossians 3:12"
+      }
+     ],
+     "passage": [
+      {
+       "label": "Colossians 3:12",
+       "verses": [
+        [
+         12,
+         "Put on therefore, as God’s chosen ones, holy and beloved, a heart of compassion, kindness, lowliness, humility, and perseverance;"
+        ]
+       ]
+      }
+     ],
+     "deeper": {
+      "b": "COL",
+      "c": 3,
+      "v": 12
+     },
+     "extra": "The verb Paul reaches for is endysasthe — clothe yourselves, put on, the ordinary word for getting dressed in the morning. It is the same word used for putting on Christ Himself (Romans 13:14). The virtues of this passage are not a costume sewn to impress God or men; they are Christ's own character, worn by people who already belong to Him."
     },
     {
      "day": 2,
      "title": "Bear and Forgive",
      "read": "Colossians 3:13",
      "focus": "\"Bearing with one another\" comes before forgiving — some days you simply carry a person you cannot fix. And when there is a real complaint, the pattern is not their apology; it is His pardon: \"as the Lord has forgiven you, so you also must forgive.\" Forgiveness runs downhill from the cross.",
-     "question": "Is there someone you are still waiting on to make the first move — and what does \"as the Lord has forgiven you\" say to that wait?"
+     "question": "Is there someone you are still waiting on to make the first move — and what does \"as the Lord has forgiven you\" say to that wait?",
+     "refs": [
+      {
+       "b": "COL",
+       "c": 3,
+       "v1": 13,
+       "v2": 13,
+       "label": "Colossians 3:13"
+      }
+     ],
+     "passage": [
+      {
+       "label": "Colossians 3:13",
+       "verses": [
+        [
+         13,
+         "bearing with one another, and forgiving each other, if any man has a complaint against any; even as Christ forgave you, so you also do."
+        ]
+       ]
+      }
+     ],
+     "deeper": {
+      "b": "COL",
+      "c": 3,
+      "v": 13
+     },
+     "extra": "The measure of my forgiveness toward others is not their sorrow; it is His pardon toward me, which came first, at full price, while I was still His enemy."
     },
     {
      "day": 3,
      "title": "Above All, Love",
      "read": "Colossians 3:14",
      "focus": "Love is not one more item on the list; it is the garment over all the others, \"which binds everything together in perfect harmony.\" Without it, patience turns cold, kindness turns mechanical, and forgiveness turns into bookkeeping. With it, the whole outfit holds together.",
-     "question": "Which virtue from this week is hardest for you to wear toward the people closest to you — and what would love over it change?"
+     "question": "Which virtue from this week is hardest for you to wear toward the people closest to you — and what would love over it change?",
+     "refs": [
+      {
+       "b": "COL",
+       "c": 3,
+       "v1": 14,
+       "v2": 14,
+       "label": "Colossians 3:14"
+      }
+     ],
+     "passage": [
+      {
+       "label": "Colossians 3:14",
+       "verses": [
+        [
+         14,
+         "Above all these things, walk in love, which is the bond of perfection."
+        ]
+       ]
+      }
+     ],
+     "deeper": {
+      "b": "COL",
+      "c": 3,
+      "v": 14
+     },
+     "extra": "With love, the whole outfit holds together — so that patience does not curdle into coldness and kindness does not run on empty."
     },
     {
      "day": 4,
      "title": "Let Peace Rule",
      "read": "Colossians 3:15",
      "focus": "The word Paul uses for \"rule\" pictures an umpire — the one who makes the call. The peace of Christ is not a feeling to chase; it is a referee to obey. When anxiety and peace argue in the same heart, peace gets the whistle — because we were \"called in one body\" to it. And the verse ends with the discipline underneath it all: \"And be thankful.\"",
-     "question": "Where is a dispute going on in your heart right now — and have you let peace make the call, or is anxiety still holding the whistle?"
+     "question": "Where is a dispute going on in your heart right now — and have you let peace make the call, or is anxiety still holding the whistle?",
+     "refs": [
+      {
+       "b": "COL",
+       "c": 3,
+       "v1": 15,
+       "v2": 15,
+       "label": "Colossians 3:15"
+      }
+     ],
+     "passage": [
+      {
+       "label": "Colossians 3:15",
+       "verses": [
+        [
+         15,
+         "And let the peace of God rule in your hearts, to which also you were called in one body, and be thankful."
+        ]
+       ]
+      }
+     ],
+     "deeper": {
+      "b": "COL",
+      "c": 3,
+      "v": 15
+     },
+     "extra": "Peace promoted from a feeling to an authority, the umpire who makes the call when fear and faith argue."
     },
     {
      "day": 5,
      "title": "The Word Dwelling In",
      "read": "Colossians 3:16a",
      "focus": "\"Let the word of Christ dwell in you richly.\" Not visit. Not pass through. Dwell — live there, richly, with room to spare. A heart where the Word only visits is a heart furnished by whatever else moved in. This is the same fight as the memory verses: what dwells in you is what comes out of you — teaching, admonishing, even singing.",
-     "question": "If your heart were a house, what has actually been dwelling in it this week — and what would \"richly\" add?"
+     "question": "If your heart were a house, what has actually been dwelling in it this week — and what would \"richly\" add?",
+     "refs": [
+      {
+       "b": "COL",
+       "c": 3,
+       "v1": 16,
+       "v2": 16,
+       "label": "Colossians 3:16"
+      }
+     ],
+     "passage": [
+      {
+       "label": "Colossians 3:16",
+       "verses": [
+        [
+         16,
+         "Let the word of Christ dwell in you richly; in all wisdom teaching and admonishing one another with psalms, hymns, and spiritual songs, singing with grace in your heart to the Lord."
+        ]
+       ]
+      }
+     ],
+     "deeper": {
+      "b": "COL",
+      "c": 3,
+      "v": 16
+     },
+     "extra": "The Word moved in as a resident, not received as a guest. And a heart furnished like that cannot help its overflow: teaching, admonishing, singing psalms and hymns and spiritual songs, thankfulness running through all of it like thread through cloth."
     },
     {
      "day": 6,
      "title": "Sing, and Do All in His Name",
      "read": "Colossians 3:16b–17",
      "focus": "The passage ends wide open: singing with thankfulness, and then everything — \"whatever you do, in word or deed\" — done in the name of the Lord Jesus. No corner of the day is left secular. The smallest task, done in His name and with thanks, is worn as worship.",
-     "question": "What is one ordinary thing on today's list you have never once done \"in the name of the Lord Jesus\" on purpose — and what changes if you do?"
+     "question": "What is one ordinary thing on today's list you have never once done \"in the name of the Lord Jesus\" on purpose — and what changes if you do?",
+     "refs": [
+      {
+       "b": "COL",
+       "c": 3,
+       "v1": 16,
+       "v2": 17,
+       "label": "Colossians 3:16–17"
+      }
+     ],
+     "passage": [
+      {
+       "label": "Colossians 3:16–17",
+       "verses": [
+        [
+         16,
+         "Let the word of Christ dwell in you richly; in all wisdom teaching and admonishing one another with psalms, hymns, and spiritual songs, singing with grace in your heart to the Lord."
+        ],
+        [
+         17,
+         "Whatever you do, in word or in deed, do all in the name of the Lord Jesus, giving thanks to God the Father through him."
+        ]
+       ]
+      }
+     ],
+     "deeper": {
+      "b": "COL",
+      "c": 3,
+      "v": 16
+     },
+     "extra": "There is no leftover category — no hour of the day where the wardrobe comes off. The man who belongs to Christ does not have a church self and a real self. He has one life, lived in one Name, with thanks."
     },
     {
      "day": 7,
      "title": "The Full Piece and the Week's Reflection",
      "read": "\"Live Like You Belong to Him\" (the full piece, below), slowly, with a pen.",
-     "focus": "",
-     "question": ""
+     "focus": "So live like you belong to Him — because you do. Not to earn the belonging, but because the belonging is already settled by the blood of the Son who was stripped so that you could be clothed. The grave clothes are off. The new ones are laid out every morning. Put them on. Read the full piece slowly, with a pen — then sit with the week's reflection below.",
+     "question": "How much of the day does verse 17 actually cover in your life right now — and what is one ordinary thing you will do this week in the name of the Lord Jesus, with thanks?",
+     "refs": [
+      {
+       "b": "COL",
+       "c": 3,
+       "v1": 12,
+       "v2": 17,
+       "label": "Colossians 3:12–17"
+      }
+     ],
+     "passage": [
+      {
+       "label": "Colossians 3:12–17",
+       "verses": [
+        [
+         12,
+         "Put on therefore, as God’s chosen ones, holy and beloved, a heart of compassion, kindness, lowliness, humility, and perseverance;"
+        ],
+        [
+         13,
+         "bearing with one another, and forgiving each other, if any man has a complaint against any; even as Christ forgave you, so you also do."
+        ],
+        [
+         14,
+         "Above all these things, walk in love, which is the bond of perfection."
+        ],
+        [
+         15,
+         "And let the peace of God rule in your hearts, to which also you were called in one body, and be thankful."
+        ],
+        [
+         16,
+         "Let the word of Christ dwell in you richly; in all wisdom teaching and admonishing one another with psalms, hymns, and spiritual songs, singing with grace in your heart to the Lord."
+        ],
+        [
+         17,
+         "Whatever you do, in word or in deed, do all in the name of the Lord Jesus, giving thanks to God the Father through him."
+        ]
+       ]
+      }
+     ],
+     "deeper": {
+      "b": "COL",
+      "c": 3,
+      "v": 12
+     }
     }
    ],
    "reflect": [
@@ -2135,49 +2601,242 @@
      "title": "The Ground",
      "read": "Philippians 4:5–6a",
      "focus": "\"Do not be anxious about anything\" does not stand alone — the verse before it gives the reason: \"The Lord is at hand.\" This is not a scolding for feeling weak. It is an invitation built on a nearness: you are not carrying this alone, because He is not far off. The command rests on the presence.",
-     "question": "What is the worry you have been carrying as if the Lord were far away — and what changes if He is at hand, right here?"
+     "question": "What is the worry you have been carrying as if the Lord were far away — and what changes if He is at hand, right here?",
+     "refs": [
+      {
+       "b": "PHP",
+       "c": 4,
+       "v1": 5,
+       "v2": 6,
+       "label": "Philippians 4:5–6"
+      }
+     ],
+     "passage": [
+      {
+       "label": "Philippians 4:5–6",
+       "verses": [
+        [
+         5,
+         "Let your gentleness be known to all men. The Lord is at hand."
+        ],
+        [
+         6,
+         "In nothing be anxious, but in everything, by prayer and petition with thanksgiving, let your requests be made known to God."
+        ]
+       ]
+      }
+     ],
+     "deeper": {
+      "b": "PHP",
+      "c": 4,
+      "v": 5
+     },
+     "extra": "Worry speaks in the language of responsibility — somebody has to think about this, and if you stop rehearsing it, it will all fall apart — but it has never once paid a bill, healed a body, or brought a prodigal home. It promises control and delivers only exhaustion."
     },
     {
      "day": 2,
      "title": "Pray About Everything",
      "read": "Philippians 4:6",
      "focus": "Paul's answer to anxiety is not \"think harder\" or \"calm down\" — it is a trade: \"in everything by prayer and supplication.\" Everything means everything. The big diagnosis and the small bill. Nothing is too large for His power or too small for His care. Worry talks to itself; prayer talks to God. Only one of those conversations can change anything.",
-     "question": "What is one thing you have only worried about so far and never actually prayed about — and will you bring it today?"
+     "question": "What is one thing you have only worried about so far and never actually prayed about — and will you bring it today?",
+     "refs": [
+      {
+       "b": "PHP",
+       "c": 4,
+       "v1": 6,
+       "v2": 6,
+       "label": "Philippians 4:6"
+      }
+     ],
+     "passage": [
+      {
+       "label": "Philippians 4:6",
+       "verses": [
+        [
+         6,
+         "In nothing be anxious, but in everything, by prayer and petition with thanksgiving, let your requests be made known to God."
+        ]
+       ]
+      }
+     ],
+     "deeper": {
+      "b": "PHP",
+      "c": 4,
+      "v": 6
+     },
+     "extra": "God never asks a man to simply stop something and leave a hole. He gives him something better to do with the same heart. Worry out, prayer in. Rehearsing to yourself, replaced by asking of God."
     },
     {
      "day": 3,
      "title": "Tell God What You Need",
      "read": "Philippians 4:6",
      "focus": "\"Let your requests be made known to God.\" He already knows — the telling is for us. Vague dread stays heavy; a named request can be carried. God is not honored by our pretending we need nothing. He is honored when His children ask plainly, like children, for what they actually need.",
-     "question": "If you had to say your need in one honest sentence — no dressing it up — what would it be?"
+     "question": "If you had to say your need in one honest sentence — no dressing it up — what would it be?",
+     "refs": [
+      {
+       "b": "PHP",
+       "c": 4,
+       "v1": 6,
+       "v2": 6,
+       "label": "Philippians 4:6"
+      }
+     ],
+     "passage": [
+      {
+       "label": "Philippians 4:6",
+       "verses": [
+        [
+         6,
+         "In nothing be anxious, but in everything, by prayer and petition with thanksgiving, let your requests be made known to God."
+        ]
+       ]
+      }
+     ],
+     "deeper": {
+      "b": "PHP",
+      "c": 4,
+      "v": 6
+     },
+     "extra": "Tell Him what you need. Not what you should need, not what sounds strong — what you need, named plainly, the way a child asks a father."
     },
     {
      "day": 4,
      "title": "With Thanksgiving",
      "read": "Philippians 4:6",
      "focus": "Thanksgiving is not the garnish on prayer; Paul puts it inside the asking: \"by prayer and supplication with thanksgiving.\" While you ask for what you need next, you remember what He has already done. Gratitude is memory with its eyes open — and it changes the voice of the prayer from panic to trust.",
-     "question": "Name three things He has already done for you that you can thank Him for in the same breath as today's request."
+     "question": "Name three things He has already done for you that you can thank Him for in the same breath as today's request.",
+     "refs": [
+      {
+       "b": "PHP",
+       "c": 4,
+       "v1": 6,
+       "v2": 6,
+       "label": "Philippians 4:6"
+      }
+     ],
+     "passage": [
+      {
+       "label": "Philippians 4:6",
+       "verses": [
+        [
+         6,
+         "In nothing be anxious, but in everything, by prayer and petition with thanksgiving, let your requests be made known to God."
+        ]
+       ]
+      }
+     ],
+     "deeper": {
+      "b": "PHP",
+      "c": 4,
+      "v": 6
+     },
+     "extra": "Gratitude does not deny the need. It remembers the history: the God you are bringing today's need to is the God who has carried you through every day before this one."
     },
     {
      "day": 5,
      "title": "The Peace That Guards",
      "read": "Philippians 4:7",
      "focus": "The promise is not that we manufacture calm — it is that \"the peace of God, which surpasses all understanding, will guard your hearts and your minds.\" The word for guard, *phroureō*, is a soldier's word: to stand garrison, to keep watch over a city. God's peace is not a mood that comes and goes; it is a sentry He posts. We bring the requests; He posts the guard.",
-     "question": "Where do you most need a guard posted tonight — over your heart (what you feel) or your mind (what you rehearse)?"
+     "question": "Where do you most need a guard posted tonight — over your heart (what you feel) or your mind (what you rehearse)?",
+     "refs": [
+      {
+       "b": "PHP",
+       "c": 4,
+       "v1": 7,
+       "v2": 7,
+       "label": "Philippians 4:7"
+      }
+     ],
+     "passage": [
+      {
+       "label": "Philippians 4:7",
+       "verses": [
+        [
+         7,
+         "And the peace of God, which surpasses all understanding, will guard your hearts and your thoughts in Christ Jesus."
+        ]
+       ]
+      }
+     ],
+     "deeper": {
+      "b": "PHP",
+      "c": 4,
+      "v": 7
+     },
+     "extra": "God's peace is not a feeling you work up on a good day and lose on a bad one. It is a sentry He stations over the two fronts where anxiety fights its war: the heart, where fear is felt, and the mind, where fear is rehearsed. Both covered."
     },
     {
      "day": 6,
      "title": "Hearts and Minds in Christ Jesus",
      "read": "Philippians 4:7",
      "focus": "Notice where the guard stands: \"in Christ Jesus.\" The peace is not located in the circumstances turning out right — it is located in a Person. That is why it can surpass understanding: it holds even when nothing around us makes sense yet. The heart and the mind — the two fronts of every anxious war — are both covered, both in Him.",
-     "question": "What circumstance have you been waiting to change before you let yourself have peace — and what if the peace is in Christ, not in the circumstance?"
+     "question": "What circumstance have you been waiting to change before you let yourself have peace — and what if the peace is in Christ, not in the circumstance?",
+     "refs": [
+      {
+       "b": "PHP",
+       "c": 4,
+       "v1": 7,
+       "v2": 7,
+       "label": "Philippians 4:7"
+      }
+     ],
+     "passage": [
+      {
+       "label": "Philippians 4:7",
+       "verses": [
+        [
+         7,
+         "And the peace of God, which surpasses all understanding, will guard your hearts and your thoughts in Christ Jesus."
+        ]
+       ]
+      }
+     ],
+     "deeper": {
+      "b": "PHP",
+      "c": 4,
+      "v": 7
+     },
+     "extra": "Understanding says peace should wait until the scan comes back clean, until the money lands, until the phone rings with good news. This peace does not wait. It stands guard in the middle of the unknown, because it was never built on the unknown being resolved — it is built on the Lord being at hand."
     },
     {
      "day": 7,
      "title": "The Full Piece and the Week's Reflection",
      "read": "\"Don't Let Worry Have the Final Word\" (the full piece, below), slowly, with a pen.",
-     "focus": "",
-     "question": ""
+     "focus": "So no, worry does not get the final word. It gets a hearing — Paul never pretends the needs are not real — but it does not get the verdict. The final word belongs to the peace of God, standing guard over a heart that brought its requests to a near and listening Father. Read the full piece slowly, with a pen — then sit with the week's reflection below.",
+     "question": "Why can this peace hold even when the circumstances have not changed — and what is the one request you will bring Him tonight, named plainly, with thanksgiving?",
+     "refs": [
+      {
+       "b": "PHP",
+       "c": 4,
+       "v1": 5,
+       "v2": 7,
+       "label": "Philippians 4:5–7"
+      }
+     ],
+     "passage": [
+      {
+       "label": "Philippians 4:5–7",
+       "verses": [
+        [
+         5,
+         "Let your gentleness be known to all men. The Lord is at hand."
+        ],
+        [
+         6,
+         "In nothing be anxious, but in everything, by prayer and petition with thanksgiving, let your requests be made known to God."
+        ],
+        [
+         7,
+         "And the peace of God, which surpasses all understanding, will guard your hearts and your thoughts in Christ Jesus."
+        ]
+       ]
+      }
+     ],
+     "deeper": {
+      "b": "PHP",
+      "c": 4,
+      "v": 5
+     }
     }
    ],
    "reflect": [
